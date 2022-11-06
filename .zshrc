@@ -121,6 +121,7 @@ export PATH="/opt/homebrew/opt/openjdk/bin:$PATH"
 # Custom aliases
 alias codechef='cd ~/Developer/Competitive\ Programming/Codechef\ Contest\ Playground ; nvim code.cpp -c "rightb vsplit error.txt|split output.txt|split input.txt|vertical resize 50"'
 
-# Node Manager
-alias node16='export PATH="/opt/homebrew/opt/node@16/bin:$PATH"'
-alias node18='export PATH="/opt/homebrew/opt/node/bin:$PATH"'
+# nvm setup
+export NVM_DIR="$HOME/.nvm"
+    [ -s "$(brew --prefix)/opt/nvm/nvm.sh" ] && \. "$(brew --prefix)/opt/nvm/nvm.sh" # This loads nvm
+    [ -s "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" ] && \. "$(brew --prefix)/opt/nvm/etc/bash_completion.d/nvm" # This loads nvm bash_completion

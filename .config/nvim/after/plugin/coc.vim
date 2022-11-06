@@ -153,3 +153,6 @@ nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 :hi CocWarningSign ctermfg=3
 " Info Sign color
 :hi CocInfoSign ctermfg=4
+
+" CocFloating color
+:hi CocFloating ctermfg=NONE

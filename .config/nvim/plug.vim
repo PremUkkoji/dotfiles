@@ -14,8 +14,9 @@ if has("nvim")
   Plug 'nvim-lua/popup.nvim'
   Plug 'nvim-lua/plenary.nvim'
   Plug 'nvim-telescope/telescope.nvim'
-  Plug 'preservim/nerdtree'
   Plug 'lewis6991/gitsigns.nvim'
+  Plug 'kyazdani42/nvim-tree.lua'
+  Plug 'akinsho/bufferline.nvim', { 'tag': 'v2.*' }
 
   Plug 'neoclide/coc.nvim', {'branch': 'release'}
   Plug 'windwp/nvim-autopairs'
